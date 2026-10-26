@@ -1,59 +1,222 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Vrusha V R - Styled HTML Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resume - Thanushree J A</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.5;
+            color: black;
+            background-color: white;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 25px;
+        }
+
+        .header img {
+            width: 120px;
+            height: 140px;
+            object-fit: cover;
+            border: 1px solid black;
+        }
+
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 30px;
+        }
+
+        .contact {
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            border-bottom: 2px solid black;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            margin-top: 8px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h2>Vrusha V R</h2>
+    <!-- HEADER -->
+    <div class="header">
 
-    <h3>Contact Information</h3>
+        <img src="photo.jpg" alt="Thanushree J A">
 
-    <hr>
+        <div>
 
-    <p>Phone: 7411004811</p>
+            <h1>Thanushree J A</h1>
 
-    <p>Email: vrusharamachandra24@gmail.com</p>
+            <div class="contact">
 
-    <p>GitHub:
-        <a href="https://github.com/vrusharamachandra24-dot" target="_blank">
-            vrusharamachandra24-dot
-        </a>
-    </p>
+                <a href="tel:7899921514">
+                    7899921514
+                </a>
 
-    <p>This is a paragraph demonstrating the basic text styling applied by CSS.</p>
+                |
 
-    <div>
-        This is a styled <strong>div</strong> element with padding and a light border.
-        Inside the div, we can also use
-        <span>span elements</span> that have their own styles, like this bold and orange text.
+                <a href="mailto:thanushreejathanu@gmail.com">
+                    thanushreejathanu@gmail.com
+                </a>
+
+                <br>
+
+                <a href="https://github.com/thanushreeJA"
+                   target="_blank">
+                    GitHub: thanushreeJA
+                </a>
+
+                |
+
+                <a href="https://www.linkedin.com/in/thanu-shree-0660a632b"
+                   target="_blank">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <p>Current time <time>10:30 AM</time></p>
 
-    <img src="bit-830x246.jpg" alt="Placeholder Image">
+    <!-- CAREER OBJECTIVE -->
+    <div class="section">
 
-    <p>
-        Visit
-        <a href="https://bit-bangalore.edu.in/">bit-bangalore.edu.in</a>
-        to know more about our college.
-    </p>
+        <h2>Career Objective</h2>
 
-    <p class="highlight">
-        This paragraph is highlighted with a yellow background.
-    </p>
+        <p>
+            Computer Science student interested in software development,
+            problem solving and learning new technologies.
+        </p>
 
-    <p class="center">
-        This text is centered using a class selector.
-    </p>
+    </div>
 
-    <p id="special-paragraph">
-        This is a special paragraph with unique styles applied through an ID selector.
-    </p>
+
+    <!-- EDUCATION -->
+    <div class="section">
+
+        <h2>Education</h2>
+
+        <p>
+            <b>B.E. Computer Science and Engineering</b><br>
+            Bangalore Institute of Technology<br>
+            Visvesvaraya Technological University
+        </p>
+
+        <p>
+            <b>PUC / Class XII</b><br>
+            Vismaya PU College
+        </p>
+
+        <p>
+            <b>Class X</b><br>
+            Kishora Vidhya Bhavana
+        </p>
+
+    </div>
+
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section">
+
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>C Programming</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML and CSS</li>
+            <li>DBMS and SQL</li>
+            <li>Data Structures and Algorithms</li>
+        </ul>
+
+    </div>
+
+
+    <!-- PROJECTS -->
+    <div class="section">
+
+        <h2>Projects</h2>
+
+        <p>
+            <b>1. College Timetable Website</b><br>
+            Developed a college timetable webpage using HTML and CSS
+            and hosted it using GitHub Pages.
+        </p>
+
+        <p>
+            <b>2. Smart Ambulance System</b><br>
+            Developed a system concept to identify suitable ambulance
+            routes and connect hospitals with patients.
+        </p>
+
+        <p>
+            <b>3. Smart Street Light System</b><br>
+            Designed an IoT-based street light system using sensors
+            to detect movement and control street lights.
+        </p>
+
+        <p>
+            <b>4. Image Encryption Application</b><br>
+            Developed a basic application for encryption and decryption
+            of images.
+        </p>
+
+    </div>
+
+
+    <!-- ACHIEVEMENTS AND ACTIVITIES -->
+    <div class="section">
+
+        <h2>Achievements and Activities</h2>
+
+        <ul>
+            <li>Participated in technical and college activities.</li>
+            <li>Worked on academic mini projects.</li>
+            <li>Participated in coding and problem-solving activities.</li>
+        </ul>
+
+    </div>
 
 </body>
 
